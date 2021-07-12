@@ -2,6 +2,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import Header from './components/header';
 import AboutMe from './components/aboutMe';
 import Projects from './components/projects';
+import Blog from './components/blog';
 import Contact from './components/contact';
 import Resume from './components/resume';
 import Footer from './components/footer';
@@ -13,9 +14,10 @@ function App() {
   return (
     <Router>
       <Header />
-      <div>
+      <div class="meat">
         <AboutMe />
         <Projects />
+        <Blog />
         <Contact />
         <Resume />
         <Footer />

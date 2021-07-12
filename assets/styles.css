@@ -1,0 +1,18 @@
+body {
+    background-color: blanchedalmond;
+}
+
+.cont {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border: 1px solid black;
+}
+
+.display-img {
+    height: 300px;
+    width: 300px;
+}
+
+.info {
+    display: inline;
+}
