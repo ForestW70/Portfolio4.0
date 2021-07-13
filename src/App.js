@@ -14,7 +14,7 @@ function App() {
   return (
     <Router>
       <Header />
-      <div class="meat">
+      <div className="meat">
         <AboutMe />
         <Projects />
         <Blog />

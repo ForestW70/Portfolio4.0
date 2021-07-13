@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom';
 export default function Header(props){
     return (
         <header>
-        <div class="">
+        <div className="">
             <div id="header-disp">
 
-                <span class="hello-i-am">Forest Wilson</span>
+                <span className="hello-i-am">Forest Wilson</span>
             </div>
             
             <div id="nav">

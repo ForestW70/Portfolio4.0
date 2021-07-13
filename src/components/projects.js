@@ -1,26 +1,59 @@
+import { useState } from 'react';
+import { projects } from '../assets/data/projectsData';
+
 
 
 export default function Projects(props) {
-    return (
-        <section id="projects">
-            <h3>Projects:</h3>
-            <div class="project-view">
-                <img class="display-img" src="https://thumbs.dreamstime.com/b/screen-android-application-developing-code-lines-computer-abstract-210299720.jpg" alt="temp"></img>
-                <div class="info">
-                    <div>Project title:
-                        <p>Here's the title</p>
-                    </div>
-                    <div>Deployment date:
-                        <p>Here's the date</p>
-                    </div>
-                    <div>Project description:
-                        <p>Here's the desc</p>
-                    </div>
-                    <div>Technologies used:
-                        <p>Here's the tech</p>
+    const [selectedProject, changeProjectView] = useState(projects[1])
+
+
+    function HeroImg() {
+        return (
+            <section id="projects">
+                <h3>Projects:</h3>
+                <div className="project-view">
+                    <img className="display-img" src={selectedProject.image} alt={selectedProject.imageAlt}></img>
+                    <div className="info">
+                        <div>Project title:
+                            <p>{selectedProject.title}</p>
+                        </div>
+                        <div>Deployment date:
+                            <p>{selectedProject.deploymentDate}</p>
+                        </div>
+                        <div>Project description:
+                            <p>{selectedProject.description}</p>
+                        </div>
+                        <div>Technologies
+                            <p>{selectedProject.techUsed}</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        )
+    }
+
+    
+
+    function LilGuys() {
+
+        function changeView(key) {
+            changeProjectView(projects[key])
+        }
+
+        return projects.map((item, key) => (
+            <button
+            onClick={() => changeView(key)}>{item.title}</button>
+            
+        ))
+
+    }
+
+
+    return (
+        <div>
+            <HeroImg />
+            <LilGuys />
+
+        </div>
     )
 }
