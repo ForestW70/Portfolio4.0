@@ -1,4 +1,4 @@
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Header from './components/header';
 import AboutMe from './components/aboutMe';
 import Projects from './components/projects';
@@ -15,13 +15,25 @@ function App() {
     <Router>
       <Header />
       <div className="meat">
-        <AboutMe />
-        <Projects />
-        <Blog />
-        <Contact />
-        <Resume />
-        <Footer />
+        <Route exact path="/about">
+          <AboutMe />
+        </Route>
+
+        <Route exact path="/archive">
+          <Projects />
+        </Route>
+
+        <Route exact path="/blog">
+          <Blog />
+        </Route>
+
+        <Route exact path="/resume">
+          <Resume />
+        </Route>
+
       </div>
+        <Contact />
+        <Footer />
     </Router>
   );
 }

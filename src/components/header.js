@@ -11,20 +11,16 @@ export default function Header(props){
             </div>
             
             <div id="nav">
-                <Link className="nav-links" id='aboutMeButton' to='/aboutMe'>
+                <Link className="nav-links" id='aboutMeButton' to='/about'>
                     <h4>About Me</h4>
                 </Link>
 
-                <Link className="nav-links" id='projectsButton' to='/projects'>
+                <Link className="nav-links" id='projectsButton' to='/archive'>
                     <h4>Projects</h4>
                 </Link>
 
                 <Link className="nav-links" id='blogButton' to='/blog'>
                     <h4>Blog</h4>
-                </Link>
-
-                <Link className="nav-links" id='contactMeButton' to="/contactMe">
-                    <h4>Contact Me</h4>
                 </Link>
 
                 <Link className="nav-links" id='resumeButton' to="/resume">
