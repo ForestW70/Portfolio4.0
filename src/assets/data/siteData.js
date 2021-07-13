@@ -1,3 +1,29 @@
+import { FaPhoneAlt, FaEnvelope, FaLinkedin, FaGithub } from 'react-icons/fa';
+
+export const contact = [
+    {
+        name: "E-mail",
+        link: "ForestRWilson@gmail.com",
+        icon: FaEnvelope,
+    },
+    {
+        name: "Phone",
+        link: "719-492-9075",
+        icon: FaPhoneAlt,
+    },
+    {
+        name: "GitHub",
+        link: "https://github.com/ForestW70",
+        icon: FaGithub,
+    },
+    {
+        name: "LinkedIn",
+        link: "https://www.linkedin.com/in/forestwilson/",
+        icon: FaLinkedin,
+    },
+
+]
+
 export const projects = [
     {
         title: "Homework 1: Code Refactor",

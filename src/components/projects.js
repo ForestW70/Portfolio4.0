@@ -1,10 +1,10 @@
 import { useState } from 'react';
-import { projects } from '../assets/data/projectsData';
+import { projects } from '../assets/data/siteData';
 
 
 
 export default function Projects(props) {
-    const [selectedProject, changeProjectView] = useState(projects[1])
+    const [selectedProject, changeProjectView] = useState(projects[0])
 
 
     function HeroImg() {
@@ -32,20 +32,19 @@ export default function Projects(props) {
         )
     }
 
-    
+
 
     function LilGuys() {
-
         function changeView(key) {
             changeProjectView(projects[key])
         }
 
         return projects.map((item, key) => (
             <button
-            onClick={() => changeView(key)}>{item.title}</button>
-            
+                onClick={() => changeView(key)}>
+                {item.title}
+            </button>
         ))
-
     }
 
 
@@ -53,7 +52,6 @@ export default function Projects(props) {
         <div>
             <HeroImg />
             <LilGuys />
-
         </div>
     )
 }

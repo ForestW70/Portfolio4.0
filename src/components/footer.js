@@ -1,7 +1,11 @@
 
 
-export default function Footer(props){
+export default function Footer(props) {
     return (
-        <h2>footer</h2>
+        <footer>
+
+            <span>© 1995-2021, Forest Wilson, Inc. or its affiliates</span>
+
+        </footer>
     )
 }
