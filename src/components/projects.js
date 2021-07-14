@@ -7,13 +7,22 @@ export default function Projects(props) {
     const [selectedProject, changeProjectView] = useState(projects[0])
 
 
-    function HeroImg() {
+    function HeroDisplay() {
+        const styles = {
+            projectBackground: {
+                backgroundImage: `url(${selectedProject.image})`,
+
+            }
+        };
+
         return (
             <section id="projects">
                 <h3>Projects:</h3>
-                <div className="project-view">
+                <div
+                    className="project-view"
+                    style={styles.projectBackground}>
                     <img className="display-img" src={selectedProject.image} alt={selectedProject.imageAlt}></img>
-                    <div className="info">
+                    <div className="proj-info">
                         <div>Project title:
                             <p>{selectedProject.title}</p>
                         </div>
@@ -50,7 +59,7 @@ export default function Projects(props) {
 
     return (
         <div>
-            <HeroImg />
+            <HeroDisplay />
             <LilGuys />
         </div>
     )

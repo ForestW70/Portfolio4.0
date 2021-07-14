@@ -1,15 +1,16 @@
-
+/* root */
 .meat {
   width: 85%;
   margin: 0 auto;
 }
 
+/* header */
 #header-disp {
   background-color: blanchedalmond;
   height: 200px;
 }
 
-.hello-i-am  {
+.hello-i-am {
   /* position: absolute;
   left: 100px;
   bottom: 0px; */
@@ -21,6 +22,7 @@
   color: #d19a47;
 }
 
+/* navbar */
 #nav {
   display: flex;
   flex-direction: row;
@@ -38,27 +40,72 @@
   color: rgb(44, 39, 39);
 }
 
-
-.display-img{
+/* projects */
+.display-img {
   height: 250px;
   width: 250px;
 }
 
 .project-view {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 0 1;
   border: 1px solid black;
 }
 
-.info {
-  display: inline;
+.proj-info {
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(95, 158, 160, 0.7);
 }
 
-.info > div {
+.proj-info > div {
   font-weight: 700;
+  background: rgba(255, 255, 255, 0.295);
+  padding: 10px 0 0 10px;
+  font-size: 2rem;
+  width: 90%;
+
 }
 
-.info p {
+.proj-info p {
   font-weight: 100;
-  margin-top: 0;
+  margin: 10px;
+  margin-bottom: ;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.595);
+  width: 90%;
+  font-size: 1rem;
+}
+
+
+
+/* contact */
+.contact-container {
+}
+
+.target-channel {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.target-channel p {
+  font-style: italic;
+  display: block;
+}
+
+.icon-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.icon-bar svg {
+  height: 3em;
+  width: 3em;
 }

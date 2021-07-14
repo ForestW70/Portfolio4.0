@@ -15,7 +15,7 @@ function App() {
     <Router>
       <Header />
       <div className="meat">
-        <Route exact path="/about">
+        <Route exact path={["/about", "/"]}>
           <AboutMe />
         </Route>
 
@@ -31,9 +31,9 @@ function App() {
           <Resume />
         </Route>
 
-      </div>
         <Contact />
         <Footer />
+      </div>
     </Router>
   );
 }
