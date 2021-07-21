@@ -163,6 +163,7 @@ export const projects = [
 // blog info
 export const blogPosts = [
     {
+        postID: 1,
         title: "Welcome to my world, 4.0",
         date: "July 20th, 2021",
         img: "proj-icons/thisicon.png",
@@ -172,6 +173,7 @@ export const blogPosts = [
 
     },
     {
+        postID: 2,
         title: "For the future...",
         date: "July 22nd, 2021",
         img: "proj-icons/thanks.png",
