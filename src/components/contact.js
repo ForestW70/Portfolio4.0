@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { contact } from '../assets/data/siteData'
 
-export default function Contact(props) {
+export default function Contact(...props) {
     const [selectedChannel, changeChannel] = useState(contact[2])
 
 
@@ -24,6 +24,7 @@ export default function Contact(props) {
 
     return (
         <div className="contact-container">
+            <h3>Let us get in touch.</h3>
             <div className="icon-bar">
                 <ShowIcons />
             </div>
