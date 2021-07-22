@@ -1,6 +1,6 @@
 /* root */
 #root {
-  background-color: #f5fbff;
+  background-color: azure;
 }
 
 .meat {
@@ -13,18 +13,47 @@
   background-color: blanchedalmond;
   /* background-image: url('images/hello.jpg'); */
   height: 200px;
+  overflow-wrap: break-word;
+    overflow: hidden;
+    padding:0;
+    position: relative;
+}
+
+.header-box {
+  transform: scale(1.2, 1);
+    color: coral;
+    letter-spacing: 1px;
+    font-size: 78px;
+    line-height: 0.5;
+    font-family: 'Xanh Mono', monospace;
+    font-style: italic;
+    margin: 0;
+    padding: 50px;
+    text-shadow: 2px 2px chocolate;
+    text-align: center;
+}
+
+.forest {
+  position: absolute;
+  font-size: 7rem;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  color: peru;
+  font-family: 'Lato';
+  transform: skew(20deg,2deg);
+  text-shadow: -15px 20px 1px maroon;
+  bottom: 40px;
 }
 
 .hello-i-am {
-  /* position: absolute;
-  left: 100px;
-  bottom: 0px; */
-  letter-spacing: 4px;
-  font-size: 80px;
-  line-height: 0.7;
-  /* font-family: 'Modak', cursive; */
-  transform: scale(1.2, 1.5);
-  color: #d19a47;
+  
+    font-size: 70px;
+    
+    line-height: 0.7;
+    
+    transform: scale(1.2, 1.5);
+    color: peru;
 }
 
 /* navbar */
@@ -36,16 +65,16 @@
 
 .nav-links {
   padding: 0 20px;
-  background-color: paleturquoise;
+  background-color: azure;
   text-decoration: none;
     font-size: 12px;
     font-variant: all-petite-caps;
   padding: 0px 20px;
-  border-bottom: 3px solid blanchedalmond;
+  border-bottom: 3px inset peru;
 }
 
 .nav-links:hover {
-  border: 3px solid blanchedalmond;
+  border: 3px inset peru;
   border-bottom: none;
 }
 

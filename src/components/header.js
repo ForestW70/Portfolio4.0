@@ -1,13 +1,36 @@
+// import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 
 export default function Header(props) {
+    // const [heheHeader, addCharacter] = useState(['']);
+    // useEffect(() => {
+    //     let lettersLogged = 0;
+    //     setInterval(() => {
+    //         if (lettersLogged < 100) {
+    //             thatsMe.forEach((letter, idx) => {
+    //                 setTimeout(() => {
+    //                     addCharacter(heheHeader + letter);
+    //                     lettersLogged++
+    //                 }, idx * 25);
+    //             })
+    //         } else {
+    //             return;
+    //         }
+    //     }, 250)    
+    // })
+
+    // const thatsMe = ["f ", "o ", "r ", "e ", "s ", "t ", "w ", "i ", "l ", "s ", "o ", "n "];
+    // let lettersLogged = 0;
+
+    const hi = '@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@'
     return (
         <header>
             <div className="">
                 <div id="header-disp">
-                    
-                    <span className="hello-i-am">ForestWilson</span>
+                    <span className="forest">FOREST WILSON</span>
+                    {/* <p className="header-box">{heheHeader}</p> */}
+                    <span className="hello-i-am">{hi}</span>
                 </div>
 
                 <div id="nav">
