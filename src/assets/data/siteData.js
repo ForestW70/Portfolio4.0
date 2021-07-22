@@ -157,6 +157,36 @@ export const projects = [
         repo: "https://github.com/ForestW70/hw12employeetracker",
         page: "",
     },
+    {
+        title: "HW13: E-commerce Backend",
+        deploymentDate: "June 24th, 2021",
+        description: "Are you trying to start your own eBay but arent sure how to connect to your pesky server? Well fear not, because in this project I created a RESTful API that handles it for you.",
+        techUsed: "Node.js, MySql, Express.js, Insomnia/Postman",
+        image: "proj-icons/hw13icon.png",
+        imageAlt: "shell screen",
+        repo: "https://github.com/ForestW70/hw13ecommercebackend",
+        page: "",
+    },
+    {
+        title: "HW14: Tech Blog",
+        deploymentDate: "July 16th, 2021",
+        description: "TechTok is your new one-stop-spot for all things tech. This was my first full-stack app, taking advantage of the MVC paradigm to bring you a website that lets you create an account, create and modify posts, and also comment on other's posts. Please dont tell the other Tok...",
+        techUsed: "JavaScript, MySql, Handlebars, Express.js, Heroku deployment",
+        image: "proj-icons/hw14icon.png",
+        imageAlt: "shell screen",
+        repo: "https://github.com/ForestW70/hw14techblog",
+        page: "https://techblog3456.herokuapp.com/home",
+    },
+    {
+        title: "HW16: Portfolio3.0",
+        deploymentDate: "July 22nd, 2021",
+        description: "Version 3 of my portfolio. Well, more like 2.5. Since I was already deep into this portfolio by the time I realized this was an assignment, there are few changes. Most notibly is the addition of the resume page, which uses tables to display my resume.",
+        techUsed: "HTML, CSS, JavaScript",
+        image: "proj-icons/hw16icon.png",
+        imageAlt: "shell screen",
+        repo: "https://github.com/ForestW70/Portfolio3.0",
+        page: "https://forestw70.github.io/Portfolio3.0/",
+    },
 ];
 
 
@@ -178,7 +208,7 @@ export const blogPosts = [
         date: "July 22nd, 2021",
         img: "proj-icons/thanks.png",
         imgAlt: "Thank you very muchly",
-        body: "This bootcamp has been a whirlwind heat, and it's crazy to see all of the technologies I've studied and projects that I've completed; but I'm still not through quite yet. 24 weeks is such a short amount of time to complete 20-some-on projects, including 3 full-fledged group project. Hell, project 3 is currently still in the works (which by the way is going to be a incredible music database app), but soon I'll be done and have so much to show for it. After this is all said and done, I plan on going back to each project, refactor my very choppy JS, and polish each layout to try and capture what my vision was for each and every one. However, my first order of business will be to actually add a blog feature for myself here, because I will probably not have time before the end to really have this portfolio the way I want it, so stay tuned!",
+        body: "This bootcamp has been a whirlwind heat, and it's crazy to see all of the technologies I've studied and projects that I've completed; but I'm still not through quite yet. 24 weeks is such a short amount of time to complete 20-some-on projects, including 3 full-fledged group project. Hell, project 3 is currently still in the works (which by the way is going to be a incredible music database app), but soon I'll be done and have so much to show for it. After this is all said and done, I plan on going back to each project, refactor my very choppy JS, and polish each layout to try and capture what my vision was for each and every one. However, my first order of business will be to actually add a blog feature for myself here, because I will probably not have time before the end to really have this portfolio the way I want it, so stay tuned.",
         link: "",
 
     },
