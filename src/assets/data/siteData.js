@@ -198,7 +198,7 @@ export const blogPosts = [
         date: "July 20th, 2021",
         img: "proj-icons/thisicon.png",
         imgAlt: "portfolio icon",
-        body: "At this point, you have alredy visited at least a few of my tabs, so welcome to my post-bootcamp portfolio. Now that I am building version 4.0, I've had a chance to recollect my previous portfolios and realize what was once hard for me to develop is mostly second nature now. This version is taking advantage of React, and wow things have really become much easier. Have yall heard about state?!",
+        body: "At this point, you have already visited at least a few of my tabs, so welcome to my post-bootcamp portfolio. Now that I am building version 4.0, I've had a chance to recollect my previous portfolios and realize what was once hard for me to develop is mostly second nature now. This version is taking advantage of React, and wow things have really become much easier. Have ya'll heard about state?!",
         link: "",
 
     },
@@ -208,7 +208,7 @@ export const blogPosts = [
         date: "July 22nd, 2021",
         img: "proj-icons/thanks.png",
         imgAlt: "Thank you very muchly",
-        body: "This bootcamp has been a whirlwind heat, and it's crazy to see all of the technologies I've studied and projects that I've completed; but I'm still not through quite yet. 24 weeks is such a short amount of time to complete 20-some-on projects, including 3 full-fledged group project. Hell, project 3 is currently still in the works (which by the way is going to be a incredible music database app), but soon I'll be done and have so much to show for it. After this is all said and done, I plan on going back to each project, refactor my very choppy JS, and polish each layout to try and capture what my vision was for each and every one. However, my first order of business will be to actually add a blog feature for myself here, because I will probably not have time before the end to really have this portfolio the way I want it, so stay tuned.",
+        body: "This bootcamp has been a whirlwind heat, and it's crazy to see all of the technologies I've studied and projects that I've completed; but I'm still not through quite yet. 24 weeks is such a short amount of time to complete 20-some-on projects, including 3 full-fledged group project. Hell, project 3 is currently still in the works (which by the way is going to be an incredible music database app), but soon I'll be done and have so much to show for it. After this is all said and done, I plan on going back to each project, refactor my very choppy JS, and polish each layout to try and capture what my vision was for each and every one. However, my first order of business will be to actually add a blog feature for myself here, because I will probably not have time before the end to really have this portfolio the way I want it, so stay tuned.",
         link: "",
 
     },
