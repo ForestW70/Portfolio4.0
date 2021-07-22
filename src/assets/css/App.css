@@ -244,6 +244,20 @@
 }
 
 
+/* resume */
+
+.res-body {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    font-variant: all-petite-caps;
+}
+
+.res-svg {
+  height: 100px;
+  width: 100px;
+}
 
 /* contact */
 .contact-container {
@@ -285,14 +299,35 @@
   height: 3em;
   width: 3em;
   padding: 30px;
-  
+  border: 3px solid transparent;
+  border-radius: 100px;
 }
 
 .icon-bar svg:hover {
-  height: 3.5em;
-  width: 3.5em;
+  height: 3em;
+  width: 3em;
   border: 3px solid rgb(126, 27, 109);
   border-radius: 100px;
+}
+
+/* footer */
+footer {
+  height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+footer > span {
+  vertical-align: bottom;
+    font-size: .7rem;
+    color: cadetblue;
+    font-family: 'Lora';
+    letter-spacing: 5px;
+    padding-top: 10px;
 }
 
 /* various */
