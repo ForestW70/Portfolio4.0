@@ -23,16 +23,17 @@ export default function Header(props) {
     // const thatsMe = ["f ", "o ", "r ", "e ", "s ", "t ", "w ", "i ", "l ", "s ", "o ", "n "];
     // let lettersLogged = 0;
 
+    // lol dont ask
     const hi = '@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@'
     return (
         <header>
             <div className="">
                 <div id="header-disp">
                     <span className="forest">FOREST WILSON</span>
-                    {/* <p className="header-box">{heheHeader}</p> */}
                     <span className="hello-i-am">{hi}</span>
                 </div>
 
+                {/* navbar links */}
                 <div id="nav">
                     <Link className="nav-links" id='aboutMeButton' to='/about'>
                         <h4>About Me</h4>
@@ -53,5 +54,4 @@ export default function Header(props) {
             </div>
         </header>
     )
-
 }

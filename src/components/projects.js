@@ -4,12 +4,12 @@ import { projects } from '../assets/data/siteData';
 
 
 export default function Projects(...props) {
+    // big project state 
     const [selectedProject, changeProjectView] = useState(projects[0])
 
-
+    // display big project
     function HeroDisplay() {
         
-
         return (
             <section id="projects">
                 <h3 className="sec-title">Projects from the archive...</h3>
@@ -28,23 +28,19 @@ export default function Projects(...props) {
                                     <p>Technologies used:</p>
                                     <span>{selectedProject.techUsed}</span>
                                 </div>
-
                             </div>
                             <div className="proj-links">
                                 <a href={selectedProject.repo}>Visit repository</a>
                                 <a href={selectedProject.page}>Visit site</a>
                             </div>
                         </article>
-
-
                     </div>
                 </div>
             </section>
         )
     }
 
-
-
+    // display all projects buttons, click event for state.
     function LilGuys() {
         function changeView(key) {
             changeProjectView(projects[key])
@@ -59,7 +55,7 @@ export default function Projects(...props) {
         ))
     }
 
-
+    // return project page
     return (
         <div>
             <HeroDisplay />

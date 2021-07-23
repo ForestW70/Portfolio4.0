@@ -2,6 +2,7 @@ import { blogPosts } from "../assets/data/siteData"
 
 export default function Blog(...props) {
     
+    // map through all posts and create sections for them.
     function MapBlog() {
         return blogPosts.map((post) => (
             <div className="single-post">
@@ -16,14 +17,7 @@ export default function Blog(...props) {
         ))
     }
     
-    
-    
-    
-    
-    
-    
-    
-    
+    // return blog page
     return(
         <section id="blog">
             <h3 className="sec-title">You heard it here first...</h3>

@@ -11,50 +11,47 @@
 /* header */
 #header-disp {
   background-color: blanchedalmond;
-  /* background-image: url('images/hello.jpg'); */
   height: 200px;
   overflow-wrap: break-word;
-    overflow: hidden;
-    padding:0;
-    position: relative;
+  overflow: hidden;
+  padding:0;
+  position: relative;
 }
 
 .header-box {
+  color: coral;
+  font-family: 'Xanh Mono', monospace;
+  font-style: italic;
+  font-size: 78px;
+  line-height: 0.5;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px chocolate;
+  text-align: center;
+  margin: 0;
+  padding: 50px;
   transform: scale(1.2, 1);
-    color: coral;
-    letter-spacing: 1px;
-    font-size: 78px;
-    line-height: 0.5;
-    font-family: 'Xanh Mono', monospace;
-    font-style: italic;
-    margin: 0;
-    padding: 50px;
-    text-shadow: 2px 2px chocolate;
-    text-align: center;
 }
 
 .forest {
-  position: absolute;
-  font-size: 7rem;
   display: flex;
-  width: 100%;
   justify-content: center;
-  color: peru;
+  position: absolute;
   font-family: 'Lato';
-  transform: skew(20deg,2deg);
+  font-size: 7rem;
+  color: peru;
   text-shadow: -15px 20px 1px maroon;
+  width: 100%;
   bottom: 40px;
+  transform: skew(20deg,2deg);
 }
 
 .hello-i-am {
-  
-    font-size: 70px;
-    
-    line-height: 0.7;
-    
-    transform: scale(1.2, 1.5);
-    color: peru;
+  font-size: 70px;  
+  line-height: 0.7;  
+  transform: scale(1.2, 1.5);
+  color: peru;
 }
+
 
 /* navbar */
 #nav {
@@ -67,8 +64,8 @@
   padding: 0 20px;
   background-color: azure;
   text-decoration: none;
-    font-size: 12px;
-    font-variant: all-petite-caps;
+  font-size: 12px;
+  font-variant: all-petite-caps;
   padding: 0px 20px;
   border-bottom: 3px inset peru;
 }
@@ -82,6 +79,7 @@
   text-decoration: none;
   color: rgb(44, 39, 39);
 }
+
 
 /* about */
 .about-p {
@@ -97,6 +95,7 @@
   margin-top: 0;
 }
 
+
 /* projects */
 .display-img {
   height: 250px;
@@ -105,39 +104,38 @@
 
 .project-view {
   display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    flex: 0 0.5;
-    padding: 30px;
-    border: 10px groove mintcream;
-    justify-content: space-around;
-    color: white;
-    background-color: snow;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex: 0 0.5;
+  padding: 30px;
+  border: 10px groove mintcream;
+  justify-content: space-around;
+  color: white;
+  background-color: snow;
 }
 
 .proj-info {
   padding: 5px;
-    width: 55%;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: darksalmon;
+  width: 55%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: darksalmon;
 }
 
 .proj-info > article {
   font-weight: 700;
-    font-size: 2vw;
-    border: 2px solid floralwhite;
-    border-radius: 15px;
-    padding: 20px;
+  font-size: 2vw;
+  border: 2px solid floralwhite;
+  border-radius: 15px;
+  padding: 20px;
 }
 
 .proj-links {
   display: flex;
   font-size: .5em;
   margin-top: 15px;
-  
 }
 
 .proj-links a {
@@ -169,7 +167,6 @@
 .proj-abst > div > p {
   font-size: .9em;
   margin: 0;
-
 }
 
 .proj-abst > div > span {
@@ -200,17 +197,17 @@
 /* Blog */
 .single-post {
   display: flex;
-    border-top: 5px groove aqua;
-    margin-top: 20px;
-    position: relative;
+  border-top: 5px groove aqua;
+  margin-top: 20px;
+  position: relative;
 }
 
 .single-post > span {
   font-size: 30vmax;
-    display: flex;
-    align-items: center;
-    color: #5f9ea01c;
-    font-family: serif;
+  display: flex;
+  align-items: center;
+  color: #5f9ea01c;
+  font-family: serif;
 }
 
 .blog-img {
@@ -221,9 +218,9 @@
 
 .blog-body {
   padding: 25px;
-    font-size: 20px;
-    color: darkcyan;
-    font-family: 'lora';
+  font-size: 20px;
+  color: darkcyan;
+  font-family: 'lora';
 }
 
 .blog-body > h2 {
@@ -245,7 +242,6 @@
 
 
 /* resume */
-
 .res-body {
   display: flex;
     flex-direction: column;
@@ -259,13 +255,14 @@
   width: 100px;
 }
 
+
 /* contact */
 .contact-container {
-  margin: 100px 0;
-  border-top: 1px solid #c1c1c1;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 100px 0;
+  border-top: 1px solid #c1c1c1;
 }
 
 .contact-container h3 {
@@ -275,12 +272,6 @@
   transform: skewX(-0.03turn);
 }
 
-/* .target-channel {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-} */
-
 .target-channel a {
   font-size: 5vw;
   font-style: italic;
@@ -288,12 +279,6 @@
   text-decoration: none;
   font-family: cursive, fantasy;
 }
-
-/* .icon-bar {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-} */
 
 .icon-bar svg {
   height: 3em;
@@ -309,6 +294,7 @@
   border: 3px solid rgb(126, 27, 109);
   border-radius: 100px;
 }
+
 
 /* footer */
 footer {
@@ -329,6 +315,7 @@ footer > span {
     letter-spacing: 5px;
     padding-top: 10px;
 }
+
 
 /* various */
 .sec-title {

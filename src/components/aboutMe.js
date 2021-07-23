@@ -1,10 +1,9 @@
 
-
 export default function AboutMe(...props){
     return(
-        <section id="about-me" className="">
+        <section id="about-me">
         <h3 className="sec-title">My elevator pitch to you...</h3>
-        <article className="">
+        <article>
 
             <div className="about-p">
                 <p>Currently a student at George Washington University's Full Stack web development bootcamp, Forest Wilson is now online. Prior to these courses, Forest has arranged a large pool of skills in areas such as marketing, finance, graphic design, and customer service. He also has plenty of first-hand experience with Microsoft and Adobe suites, as well as digital-audio workspaces such as FL studio and Logic X.</p>

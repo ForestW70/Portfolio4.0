@@ -10,6 +10,7 @@ import Footer from './components/footer';
 // import logo from './logo.svg';
 import './assets/css/App.css';
 
+// create react routes for all pages
 function App() {
   return (
     <Router>
