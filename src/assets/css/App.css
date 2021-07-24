@@ -1,6 +1,7 @@
 /* root */
 #root {
-  background-color: azure;
+  background-color: mintcream;
+  
 }
 
 .meat {
@@ -16,6 +17,9 @@
   overflow: hidden;
   padding:0;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  
 }
 
 .header-box {
@@ -43,13 +47,31 @@
   width: 100%;
   bottom: 40px;
   transform: skew(20deg,2deg);
+  z-index: 1;
 }
 
 .hello-i-am {
-  font-size: 70px;  
-  line-height: 0.7;  
-  transform: scale(1.2, 1.5);
+  font-size: 64px;
+  line-height: .8;
+  letter-spacing: -10px;
+  margin-left: -5px;
+  transform: scale(1.5, 1.4);
   color: peru;
+  text-shadow: 0 0 5px burlywood;
+}
+
+
+@media screen and (max-width: 875px) {
+  #header-disp {
+    height: 200px;
+    
+  }
+  .forest {
+    font-size: 3rem;
+    width: 50%;
+    left: 10px;
+
+  }
 }
 
 
@@ -95,6 +117,19 @@
   margin-top: 0;
 }
 
+@media screen and (max-width: 530px) {
+  .blurb {
+    font-size: 4vmin;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    
+  }
+  .about-p > p::after {
+    content: \n + '~';
+
+  }
+}
 
 /* projects */
 .display-img {
@@ -136,6 +171,9 @@
   display: flex;
   font-size: .5em;
   margin-top: 15px;
+  font-size: .6em;
+  margin-top: 20px;
+  justify-content: space-evenly;
 }
 
 .proj-links a {
@@ -145,17 +183,18 @@
   color: darkslateblue;
   margin: 0 30px 15px 0;
   text-decoration: none;
+  
 }
 
 .proj-abst {
-  font-size: .7em;
+  font-size: 1.5em;
   margin: 20px 0;
 }
 
 .proj-abst > p {
-  font-weight: 100;
+  font-weight: 300;
   margin: 0 0 20px 0;
-  font-size: 1rem;
+  font-size: .9rem;
   text-decoration: none;
 }
 
@@ -165,12 +204,13 @@
 }
 
 .proj-abst > div > p {
-  font-size: .9em;
+  font-size: .8em;
   margin: 0;
 }
 
 .proj-abst > div > span {
   font-weight: 200;
+  font-size: .6em;
 }
 
 .proj-buttons {
@@ -295,25 +335,41 @@
   border-radius: 100px;
 }
 
+@media screen and (max-width: 535px) {
+  .icon-bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+  }
+  
+}
 
 /* footer */
 footer {
   height: 50px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    background-color: aliceblue;
-    border-top-left-radius: 100px;
-    border-top-right-radius: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: aliceblue;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  
 }
 
 footer > span {
   vertical-align: bottom;
-    font-size: .7rem;
-    color: cadetblue;
-    font-family: 'Lora';
-    letter-spacing: 5px;
-    padding-top: 10px;
+  font-size: 1rem;
+  color: rosybrown;
+  font-family: 'Lora';
+  letter-spacing: 5px;
+  padding-top: 5px;
+  width: 85%;
+  text-align: center;
+}
+
+footer > span > div {
+  font-style: italic;
+  display: inline;
 }
 
 
