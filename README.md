@@ -54,10 +54,10 @@ MIT - ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)(https
 # Extras
 
 * Screenshots:
-  - ![Home screen/about me](./assets/images/home.png)
-  - ![Project screen](./assets/images/projects.png)
-  - ![Blog screen](./assets/images/blog.png)
-  - ![Resume](./assets/images/resume.png)
+  - ![Home screen/about me](./assets/home.png)
+  - ![Project screen](./assets/projects.png)
+  - ![Blog screen](./assets/blog.png)
+  - ![Resume](./assets/resume.png)
 
 
 * Links:
