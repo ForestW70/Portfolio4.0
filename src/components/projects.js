@@ -3,7 +3,7 @@ import { projects } from '../assets/data/siteData';
 
 
 
-export default function Projects(...props) {
+export default function Projects() {
     // big project state 
     const [selectedProject, changeProjectView] = useState(projects[0])
 
@@ -49,6 +49,7 @@ export default function Projects(...props) {
         return projects.map((item, key) => (
             <button
                 className="proj-buttons"
+                key={key}
                 onClick={() => changeView(key)}>
                 {item.title}
             </button>

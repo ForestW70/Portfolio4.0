@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { contact } from '../assets/data/siteData'
 
-export default function Contact(...props) {
+export default function Contact() {
     const [selectedChannel, changeChannel] = useState(contact[2])
 
     // map through contact data and create click event to change state 
@@ -10,7 +10,10 @@ export default function Contact(...props) {
             changeChannel(contact[key])
         }
         return contact.map((item, key) => (
-            <item.icon onClick={() => selectChannel(key)} />
+            <item.icon
+                key={key}
+                onClick={() => selectChannel(key)} 
+            />
         ))
     }
 

@@ -1,12 +1,12 @@
 import { blogPosts } from "../assets/data/siteData"
 
-export default function Blog(...props) {
+export default function Blog() {
     
     // map through all posts and create sections for them.
     function MapBlog() {
-        return blogPosts.map((post) => (
-            <div className="single-post">
-                <img className="blog-img" src={post.img} alt={post.imgAlt}></img>
+        return blogPosts.map((post, key) => (
+            <div className="single-post" key={key}>
+                <img className="blog-img"  src={post.img} alt={post.imgAlt}></img>
                 <article className="blog-body">
                     <h2>{post.title}</h2>
                     <p>{post.body}</p>
