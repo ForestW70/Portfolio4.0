@@ -358,10 +358,10 @@ footer {
 
 footer > span {
   vertical-align: bottom;
-  font-size: 1rem;
+  font-size: .5rem;
   color: rosybrown;
   font-family: 'Lora';
-  letter-spacing: 5px;
+  letter-spacing: 1px;
   padding-top: 5px;
   width: 85%;
   text-align: center;
