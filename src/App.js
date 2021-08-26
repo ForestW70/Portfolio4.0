@@ -32,6 +32,10 @@ function App() {
           <Resume />
         </Route>
 
+        <Route exact path="/no spam pls">
+          <h2>@:-)</h2>
+        </Route>
+
         <Contact />
         <Footer />
       </div>

@@ -5,21 +5,25 @@ export const contact = [
     {
         name: "E-mail",
         link: "ForestRWilson@gmail.com",
+        type: "email",
         icon: FaEnvelope,
     },
     {
         name: "Phone",
         link: "719-492-9075",
+        type: "cell",
         icon: FaPhoneAlt,
     },
     {
         name: "GitHub",
         link: "https://github.com/ForestW70",
+        type: "link",
         icon: FaGithub,
     },
     {
         name: "LinkedIn",
         link: "https://www.linkedin.com/in/forestwilson/",
+        type: "link",
         icon: FaLinkedin,
     },
 

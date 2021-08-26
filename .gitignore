@@ -1,5 +1,7 @@
 .DS_Store
 package-lock.json
+assets/index.html
+assets/styles.css
 
 # misc
 .DS_Store

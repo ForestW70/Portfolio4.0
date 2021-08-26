@@ -1,7 +1,6 @@
 /* root */
 #root {
   background-color: mintcream;
-  
 }
 
 .meat {
@@ -15,16 +14,15 @@
   height: 200px;
   overflow-wrap: break-word;
   overflow: hidden;
-  padding:0;
+  padding: 0;
   position: relative;
   display: flex;
   flex-direction: column;
-  
 }
 
 .header-box {
   color: coral;
-  font-family: 'Xanh Mono', monospace;
+  font-family: "Xanh Mono", monospace;
   font-style: italic;
   font-size: 78px;
   line-height: 0.5;
@@ -40,40 +38,36 @@
   display: flex;
   justify-content: center;
   position: absolute;
-  font-family: 'Lato';
+  font-family: "Lato";
   font-size: 7rem;
   color: peru;
   text-shadow: -15px 20px 1px maroon;
   width: 100%;
   bottom: 40px;
-  transform: skew(20deg,2deg);
+  transform: skew(20deg, 2deg);
   z-index: 1;
 }
 
 .hello-i-am {
   font-size: 64px;
-  line-height: .8;
+  line-height: 0.8;
   letter-spacing: -10px;
   margin-left: -5px;
   transform: scale(1.5, 1.4);
-  color: peru;
-  text-shadow: 0 0 5px burlywood;
+  color: bisque;
+  text-shadow: 0 0 3px navajowhite;
 }
-
 
 @media screen and (max-width: 875px) {
   #header-disp {
     height: 200px;
-    
   }
   .forest {
     font-size: 3rem;
     width: 50%;
     left: 10px;
-
   }
 }
-
 
 /* navbar */
 #nav {
@@ -102,10 +96,9 @@
   color: rgb(44, 39, 39);
 }
 
-
 /* about */
 .about-p {
-  font-family: 'Lora', serif;
+  font-family: "Lora", serif;
   margin: 30px;
   text-indent: 25px;
 }
@@ -123,11 +116,9 @@
     width: 90%;
     margin: 0 auto;
     text-align: center;
-    
   }
   .about-p > p::after {
-    content: \n + '~';
-
+    content: \n+ "~";
   }
 }
 
@@ -169,9 +160,9 @@
 
 .proj-links {
   display: flex;
-  font-size: .5em;
+  font-size: 0.5em;
   margin-top: 15px;
-  font-size: .6em;
+  font-size: 0.6em;
   margin-top: 20px;
   justify-content: space-evenly;
 }
@@ -183,7 +174,6 @@
   color: darkslateblue;
   margin: 0 30px 15px 0;
   text-decoration: none;
-  
 }
 
 .proj-abst {
@@ -194,7 +184,7 @@
 .proj-abst > p {
   font-weight: 300;
   margin: 0 0 20px 0;
-  font-size: .9rem;
+  font-size: 0.9rem;
   text-decoration: none;
 }
 
@@ -204,13 +194,13 @@
 }
 
 .proj-abst > div > p {
-  font-size: .8em;
+  font-size: 0.8em;
   margin: 0;
 }
 
 .proj-abst > div > span {
   font-weight: 200;
-  font-size: .6em;
+  font-size: 0.6em;
 }
 
 .proj-buttons {
@@ -219,7 +209,7 @@
   background-color: floralwhite;
   border-color: cadetblue;
   font-style: italic;
-  font-family: math, 'lato', sans-serif;
+  font-family: math, "lato", sans-serif;
 }
 
 @media screen and (max-width: 900px) {
@@ -232,7 +222,6 @@
     width: 80%;
   }
 }
-
 
 /* Blog */
 .single-post {
@@ -260,7 +249,7 @@
   padding: 25px;
   font-size: 20px;
   color: darkcyan;
-  font-family: 'lora';
+  font-family: "lora";
 }
 
 .blog-body > h2 {
@@ -269,32 +258,30 @@
 
 .blog-body > span {
   font-style: italic;
-    color: dimgray;
-    font-size: .8rem;
+  color: dimgray;
+  font-size: 0.8rem;
 }
 
 .blog-body > p {
   font-size: 0.95rem;
-    text-indent: 15px;
-    color: darkslategrey;
-    line-height: 20px;
+  text-indent: 15px;
+  color: darkslategrey;
+  line-height: 20px;
 }
-
 
 /* resume */
 .res-body {
   display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 100px;
-    font-variant: all-petite-caps;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  font-variant: all-petite-caps;
 }
 
 .res-svg {
   height: 100px;
   width: 100px;
 }
-
 
 /* contact */
 .contact-container {
@@ -313,11 +300,18 @@
 }
 
 .target-channel a {
-  font-size: 5vw;
+  font-size: 3vw;
   font-style: italic;
   display: block;
   text-decoration: none;
-  font-family: cursive, fantasy;
+  font-family: "lora";
+}
+
+.target-channel svg {
+  display: flex;
+  margin: 15px auto 0px;
+  color: gainsboro;
+  font-size: 45px;
 }
 
 .icon-bar svg {
@@ -339,9 +333,7 @@
   .icon-bar {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    
   }
-  
 }
 
 /* footer */
@@ -353,14 +345,13 @@ footer {
   background-color: aliceblue;
   border-top-left-radius: 100px;
   border-top-right-radius: 100px;
-  
 }
 
 footer > span {
   vertical-align: bottom;
-  font-size: .5rem;
+  font-size: 0.5rem;
   color: rosybrown;
-  font-family: 'Lora';
+  font-family: "Lora";
   letter-spacing: 1px;
   padding-top: 5px;
   width: 85%;
@@ -372,9 +363,8 @@ footer > span > div {
   display: inline;
 }
 
-
 /* various */
 .sec-title {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-style: italic;
 }
