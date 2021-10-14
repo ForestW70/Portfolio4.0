@@ -31,7 +31,11 @@ export default function Projects() {
                             </div>
                             <div className="proj-links">
                                 <a href={selectedProject.repo}>Visit repository</a>
-                                <a href={selectedProject.page}>Visit site</a>
+                                {selectedProject.page ?
+                                    <a href={selectedProject.page}>Visit site</a>
+                                    :
+                                    <a href={selectedProject.demo} rel="noopener noreferrer" target="_blank">View demo</a>
+                                    }
                             </div>
                         </article>
                     </div>

@@ -140,6 +140,7 @@ export const projects = [
         imageAlt: "Readme Generator",
         repo: "https://github.com/ForestW70/hw9nodereadmegenerator",
         page: "",
+        demo: "https://youtu.be/SuuVYTpCeO4",
     },
     {
         title: "HW10: Team Profile Generator",
@@ -150,6 +151,7 @@ export const projects = [
         imageAlt: "team page",
         repo: "https://github.com/ForestW70/hw10teamprofilegenerator",
         page: "",
+        demo: "https://youtu.be/q5OVMxwlkuU",
     },
     {
         title: "HW11: Note Taker",
@@ -170,6 +172,7 @@ export const projects = [
         imageAlt: "shell screen",
         repo: "https://github.com/ForestW70/hw12employeetracker",
         page: "",
+        demo: "https://youtu.be/x-xalO1bMd8",
     },
     {
         title: "HW13: E-commerce Backend",
@@ -180,6 +183,7 @@ export const projects = [
         imageAlt: "shell screen",
         repo: "https://github.com/ForestW70/hw13ecommercebackend",
         page: "",
+        demo: "https://youtu.be/y_LAilM1hRY",
     },
     {
         title: "HW14: Tech Blog",
