@@ -59,7 +59,7 @@ export const projects = [
         image: "proj-icons/proj3icon.png",
         imageAlt: "the soul got out of the boxxxxxx",
         repo: "https://github.com/AustinJoo97/Pandoras-Box",
-        page: "",
+        page: "/beepboopnotfound",
     },
     {
         title: "HW1: Code Refactor",
@@ -69,7 +69,7 @@ export const projects = [
         image: "proj-icons/hw1icon.png",
         imageAlt: "refactored homepage",
         repo: "https://github.com/ForestW70/hw1coderefactor",
-        page: "",
+        page: "/beepboopnotfound",
     },
     {
         title: "HW2: First Portfolio",
@@ -243,7 +243,7 @@ export const projects = [
         image: "proj-icons/hw21icon.png",
         imageAlt: "Book search",
         repo: "https://github.com/ForestW70/hw21booksearchengine",
-        page: "",
+        page: "/beepboopnotfound",
     }
     
 ];

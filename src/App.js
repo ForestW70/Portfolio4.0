@@ -3,6 +3,7 @@ import Header from './components/header';
 import AboutMe from './components/aboutMe';
 import Projects from './components/projects';
 import Contact from './components/contact';
+import NotFound from './components/beep';
 import Resume from './components/resume';
 import Footer from './components/footer';
 
@@ -22,12 +23,12 @@ function App() {
           <Projects />
         </Route>
 
-        {/* <Route exact path="/blog">
-          <Blog />
-        </Route> */}
-
         <Route exact path="/resume">
           <Resume />
+        </Route>
+
+        <Route exact path="/beepboopnotfound">
+          <NotFound />
         </Route>
 
         <Route exact path="/no spam pls">
