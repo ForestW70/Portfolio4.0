@@ -25,7 +25,7 @@ export default function Contact() {
             <div className="target-channel">
                 <ImPointDown />
                 {selectedChannel.type === "link" &&
-                    <a href={selectedChannel.link}>{selectedChannel.link}</a>
+                    <a href={selectedChannel.link} rel="noopener noreferrer" target="_blank">{selectedChannel.link}</a>
                 }
                 {selectedChannel.type === "email" &&
                     <a href={`mailto:${selectedChannel.link}`}>{selectedChannel.link}</a>
