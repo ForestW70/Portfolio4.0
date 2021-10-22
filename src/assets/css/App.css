@@ -168,7 +168,10 @@
 }
 
 .proj-links a {
-  background-color: white;
+  font-size: 10px;
+  text-align: center;
+  background-color: #f3f3f3;
+  font-family: 'Lato';
   padding: 8px;
   border-radius: 5px;
   color: darkslateblue;
@@ -185,6 +188,9 @@
   font-weight: 300;
   margin: 10px 0 20px 0;
   font-size: 0.9rem;
+  padding-bottom: 10px;
+  border-bottom: 4px #fffafa solid;
+  border-bottom-style: double;
   text-decoration: none;
 }
 
@@ -194,8 +200,9 @@
 }
 
 .proj-abst > div > p {
-  font-size: 0.8em;
+  font-size: 0.7em;
   margin: 0;
+  line-height: 0;
 }
 
 .proj-abst > div > span {
@@ -203,6 +210,14 @@
   font-weight: 200;
   font-size: 0.4em;
   margin: 20px 0;
+}
+
+@media screen and (max-width: 700px) {
+  .proj-abst > div > span {
+    font-size: 8px;
+    margin: 10px 0;
+  }
+
 }
 
 .proj-buttons {
@@ -369,4 +384,8 @@ footer > span > div {
 .sec-title {
   font-family: "Lato", sans-serif;
   font-style: italic;
+}
+
+@media screen and (max-width: 360px) {
+
 }
