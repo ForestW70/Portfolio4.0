@@ -9,33 +9,50 @@ export default function Projects() {
 
     // display big project
     function HeroDisplay() {
-        
+
         return (
             <section id="projects">
                 <h3 className="sec-title">Projects from the archive...</h3>
                 <div className="project-view">
                     <img className="display-img" src={selectedProject.image} alt={selectedProject.imageAlt}></img>
                     <div className="proj-info">
-                        <article>{selectedProject.title}
+                        <article>{`"${selectedProject.title}"`}
                             <div className="proj-abst">Abstract:
                                 <p>{selectedProject.description}</p>
-                                <div>
+                                <div className="proj-specs">
                                     <p>Deployment date:</p>
                                     <span>{selectedProject.deploymentDate}</span>
 
                                 </div>
-                                <div>
+                                <div className="proj-specs">
                                     <p>Technologies used:</p>
                                     <span>{selectedProject.techUsed}</span>
                                 </div>
                             </div>
+                            
                             <div className="proj-links">
-                                <a href={selectedProject.repo} rel="noopener noreferrer" target="_blank">Visit repository</a>
+                                <a
+                                    href={selectedProject.repo}
+                                    rel="noopener noreferrer"
+                                    target="_blank">
+                                    Visit repository
+                                </a>
+                                
                                 {selectedProject.page ?
-                                    <a href={selectedProject.page} rel="noopener noreferrer" target="_blank">Visit site</a>
+                                    <a
+                                        href={selectedProject.page}
+                                        rel="noopener noreferrer"
+                                        target="_blank">
+                                        Visit site
+                                    </a>
                                     :
-                                    <a href={selectedProject.demo} rel="noopener noreferrer" target="_blank">View demo</a>
-                                    }
+                                    <a
+                                        href={selectedProject.demo}
+                                        rel="noopener noreferrer"
+                                        target="_blank">
+                                        View demo
+                                    </a>
+                                }
                             </div>
                         </article>
                     </div>

@@ -16,10 +16,11 @@ MIT - ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)(https
 ### About This Project
 
 * # Tech used:
-  1. JavaScript
+  1. JavaScript/JSX
   2. React
-  3. Heroku deployment
-  4. Eslint
+  3. CSS
+  5. Heroku deployment
+  6. Eslint
 
 
 * # Project description:
@@ -33,11 +34,9 @@ MIT - ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)(https
   2. Enjoy.
      
 * # Additional comments
-  - will for sure be updating this constantly. my first big dive into react and I love it, things are so easy. 
+  - will for sure be updating this constantly. my first big dive into React.js and I love it.
 
-  - I'd like to add a blog feature to my site using a more MERN approach. (minus the E.) Also need to make this tab mobile responsive. For future deployment.
-
-  - I hope whoever grading this isn't cringing at the header. there are plans to give it a chill mode but for now this is all I got. 
+  - I'd like to add a blog feature to my site using a more MERN approach. (minus the E.) Also need to make this tab mobile responsive. For future deployment. EDIT: Decided to scrap the Blog idea. I like the idea of keeping track of personal projects, but I'll save this feature for a future time when I have more to share.
 
 
 #### Contribution information 
@@ -53,7 +52,7 @@ MIT - ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)(https
 
 # Extras
 
-* Screenshots:
+* Screenshots(7/23/21):
   - ![Home screen/about me](./assets/home.png)
   - ![Project screen](./assets/projects.png)
   - ![Blog screen](./assets/blog.png)
