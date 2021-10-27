@@ -1,28 +1,33 @@
 
-export default function AboutMe(){
-    return(
+export default function AboutMe() {
+    return (
         <section id="about-me">
-        <h3 className="sec-title">My elevator pitch to you...</h3>
-        <article>
+            <h3 className="sec-title">My elevator pitch to you...</h3>
+            <article>
 
-            <div className="about-p">
-                <p>
-                    As a recent graduate from George Washington University's Full Stack web development bootcamp, Forest Wilson is now online. 
-                    Prior to these courses, Forest has arranged a large pool of skills in areas such as marketing, finance, graphic design, and customer service. 
-                    He also has plenty of first-hand experience with Microsoft and Adobe suites, as well as digital-audio workspaces such as FL studio and Logic X.
-                </p>
+                <div className="about-p">
+                    <p>
+                        Forest Wilson is a Full stack web developer foremost, and has developed over 20 applications utilizing the core web languages (HTML, CSS, and JavaScript) in conjunction with other technologies and packages such as:
+                        React.js, Next.js, Bootstrap, MySql, MongoDB, Express, Jest, Handlebars, JQuery, Sequelize, Mongoose, IndexedDB, JWTs, Babel, Apollo, Axios, and GraphQL.
+                        He also has experience with VSCode, Github, Git, Node, NPM/NPX/Yarn, Heroku, Encryption, Cookies, Postman/Insomnia, and Service workers.
+                    </p>
 
-                <p>
-                    Initially, Forest was enrolled in the computer engineering program at Drexel University, however he quickly found out his entrepreneurial spirit was more fit for a business path. 
-                    Despite taking away many skills from the business arts, he still could not shake his love for computers and tech, so he began to study the ins and outs of web development. 
-                    Although he has always had big plans to use his abundance of skills to start his own business; focused on visual design, and finding ways for artists to best represent their work online and in the real world, 
-                    Forest is now ready to start his career with a company that sees his communication and technological skills as the incredible asset it is, allowing him to work with teams to develop a product that is precisely what the user wants to see on the web.
-                </p>
-                
-                <br></br>
-                {/* <p className="blurb">"Above all else, I value functionality, creativity, and simplicity<strong>*</strong>. My goal-oriented drive and ability to think outside-of-the-box makes sure that; no matter the team, no matter the project, no matter the circumstances, it <strong>will</strong> get done."</p> */}
-            </div>
-        </article>
-    </section>
+                    <p>
+                        Behind the scenes, Forest likes to find new ways to use his development experience to build music-oriented applications for the web, and for creating music in tandem with FL Studio and Garage band.
+                        Forest is also very familiar with Microsoft and Adobe suite programs such as Excel, Photoshop, and Illustrator. To add to the pot, he also has years of experience in fields such as Marketing/Economics, Service sector/Communication, and IT Helpdesk/Office administration.
+                        The master plan is to one day wrap up all of these skills and create a vibrant online community of creators, where they can have a stylish and accessible web application to display, market, and sell their work.
+                    </p>
+
+                    <p>
+                        In the mean time, Forest is ready build-up his repertoire of front-end, back-end, and UX/UI skills to the max, and he's not afraid of the hard work it will take to achieve this.
+                        He is committed to designing creative and accessible applications, as well as developing a quality product with as few compromises as possible.
+                        So if you are someone who also heavily believes in these ideas, and also in need of a web developer... Well you might just know who to message now.
+                    </p>
+
+
+                    <br></br>
+                </div>
+            </article>
+        </section>
     )
 }
