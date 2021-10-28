@@ -1,7 +1,10 @@
 import { useState } from 'react';
 import { projects } from '../assets/data/siteData';
 
-
+const buttonMasher = () => {
+    const radius = Math.floor(Math.random()) * 42;
+    console.log(radius)
+}
 
 export default function Projects() {
     // big project state 
@@ -13,19 +16,22 @@ export default function Projects() {
         return (
             <section id="projects">
                 <h3 className="sec-title">Projects from the archive...</h3>
+                
                 <div className="project-view">
                     <img className="display-img" src={selectedProject.image} alt={selectedProject.imageAlt}></img>
+                   
                     <div className="proj-info">
-                        <article>{`"${selectedProject.title}"`}
-                            <div className="proj-abst">Abstract:
-                                <p>{selectedProject.description}</p>
-                                <div className="proj-specs">
-                                    <p>Deployment date:</p>
-                                    <span>{selectedProject.deploymentDate}</span>
+                        <article>
+                            <h1 className="proj-title">{`"${selectedProject.title}"`}</h1>
 
-                                </div>
+                            <div className="proj-abst">
+                                <h4 className="desc-title">Abstract:</h4>
+                                <p>{selectedProject.description}</p>
+
                                 <div className="proj-specs">
-                                    <p>Technologies used:</p>
+                                    <h6 className="spec-title">Deployment date:</h6>
+                                    <h6 className="spec-title">Technologies used:</h6>
+                                    <span>{selectedProject.deploymentDate}</span>
                                     <span>{selectedProject.techUsed}</span>
                                 </div>
                             </div>
@@ -42,7 +48,9 @@ export default function Projects() {
                                     <a
                                         href={selectedProject.page}
                                         rel="noopener noreferrer"
-                                        target="_blank">
+                                        target="_blank"
+                                        // onClick={(() => console.log(buttonMasher))}
+                                        >
                                         Visit site
                                     </a>
                                     :
