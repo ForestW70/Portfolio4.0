@@ -1,14 +1,21 @@
 import { useState } from 'react';
 import { projects } from '../assets/data/siteData';
 
-const buttonMasher = () => {
-    const radius = Math.floor(Math.random()) * 42;
-    console.log(radius)
+const buttonMasher = (max) => {
+    console.log(Math.floor(Math.random() * max));
+    let radii = [];
+    for (let i = 0; i < 9; i++) {
+        let rInt = (Math.floor(Math.random() * max))
+        radii.push(rInt)
+    }
+    console.log(radii)
+    return radii;
 }
 
 export default function Projects() {
     // big project state 
     const [selectedProject, changeProjectView] = useState(projects[0])
+    const [buttonWarp, changeWarp] = useState([0, 0, 0, 0, 0, 0, 0, 0]);
 
     // display big project
     function HeroDisplay() {
@@ -16,10 +23,10 @@ export default function Projects() {
         return (
             <section id="projects">
                 <h3 className="sec-title">Projects from the archive...</h3>
-                
+
                 <div className="project-view">
                     <img className="display-img" src={selectedProject.image} alt={selectedProject.imageAlt}></img>
-                   
+
                     <div className="proj-info">
                         <article>
                             <h1 className="proj-title">{`"${selectedProject.title}"`}</h1>
@@ -35,22 +42,34 @@ export default function Projects() {
                                     <span>{selectedProject.techUsed}</span>
                                 </div>
                             </div>
-                            
+
                             <div className="proj-links">
                                 <a
                                     href={selectedProject.repo}
                                     rel="noopener noreferrer"
-                                    target="_blank">
+                                    target="_blank"
+                                    style={{
+                                        "borderTopLeftRadius": `${buttonWarp[0]}px`,
+                                        "borderTopRightRadius": `${buttonWarp[1]}px`,
+                                        "borderBottomRightRadius": `${buttonWarp[2]}px`,
+                                        "borderBottomLeftRadius": `${buttonWarp[3]}px`
+                                    }}
+                                >
                                     Visit repository
                                 </a>
-                                
+
                                 {selectedProject.page ?
                                     <a
                                         href={selectedProject.page}
                                         rel="noopener noreferrer"
                                         target="_blank"
-                                        // onClick={(() => console.log(buttonMasher))}
-                                        >
+                                        style={{
+                                            "borderTopLeftRadius": `${buttonWarp[4]}px`,
+                                            "borderTopRightRadius": `${buttonWarp[5]}px`,
+                                            "borderBottomRightRadius": `${buttonWarp[6]}px`,
+                                            "borderBottomLeftRadius": `${buttonWarp[7]}px`
+                                        }}
+                                    >
                                         Visit site
                                     </a>
                                     :
@@ -72,7 +91,9 @@ export default function Projects() {
     // display all projects buttons, click event for state.
     function LilGuys() {
         function changeView(key) {
-            changeProjectView(projects[key])
+            let radii = buttonMasher(key * 2);
+            changeWarp(radii)
+            changeProjectView(projects[key]);
         }
 
         return projects.map((item, key) => (
@@ -90,7 +111,7 @@ export default function Projects() {
         <div>
             <HeroDisplay />
             <p><strong>Bootcamp assignments:</strong></p>
-            <LilGuys />
+            <LilGuys setState={changeWarp}/>
         </div>
     )
 }
