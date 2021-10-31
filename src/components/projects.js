@@ -12,6 +12,12 @@ const buttonMasher = (max) => {
     return radii;
 }
 
+// const Reversy = ({ projects }) => {
+//     console.log(projects)
+//     const hey = "hey"
+//     return <span>{hey}</span>;
+// }
+
 export default function Projects() {
     // big project state 
     const [selectedProject, changeProjectView] = useState(projects[0])
@@ -110,8 +116,9 @@ export default function Projects() {
     return (
         <div>
             <HeroDisplay />
-            <p><strong>Bootcamp assignments:</strong></p>
-            <LilGuys setState={changeWarp}/>
+            <p><strong>Projects:</strong></p>
+            <LilGuys />
+            {/* <Reversy /> */}
         </div>
     )
 }
