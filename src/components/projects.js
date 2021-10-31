@@ -12,11 +12,6 @@ const buttonMasher = (max) => {
     return radii;
 }
 
-// const Reversy = ({ projects }) => {
-//     console.log(projects)
-//     const hey = "hey"
-//     return <span>{hey}</span>;
-// }
 
 export default function Projects() {
     // big project state 
@@ -55,10 +50,7 @@ export default function Projects() {
                                     rel="noopener noreferrer"
                                     target="_blank"
                                     style={{
-                                        "borderTopLeftRadius": `${buttonWarp[0]}px`,
-                                        "borderTopRightRadius": `${buttonWarp[1]}px`,
-                                        "borderBottomRightRadius": `${buttonWarp[2]}px`,
-                                        "borderBottomLeftRadius": `${buttonWarp[3]}px`
+                                        "borderRadius": `${buttonWarp[0]}px ${buttonWarp[1]}px ${buttonWarp[2]}px ${buttonWarp[3]}px`
                                     }}
                                 >
                                     Visit repository
@@ -70,10 +62,7 @@ export default function Projects() {
                                         rel="noopener noreferrer"
                                         target="_blank"
                                         style={{
-                                            "borderTopLeftRadius": `${buttonWarp[4]}px`,
-                                            "borderTopRightRadius": `${buttonWarp[5]}px`,
-                                            "borderBottomRightRadius": `${buttonWarp[6]}px`,
-                                            "borderBottomLeftRadius": `${buttonWarp[7]}px`
+                                            "borderRadius": `${buttonWarp[4]}px ${buttonWarp[5]}px ${buttonWarp[6]}px ${buttonWarp[7]}px`
                                         }}
                                     >
                                         Visit site
@@ -82,7 +71,10 @@ export default function Projects() {
                                     <a
                                         href={selectedProject.demo}
                                         rel="noopener noreferrer"
-                                        target="_blank">
+                                        target="_blank"
+                                        style={{
+                                            "borderRadius": `${buttonWarp[4]}px ${buttonWarp[5]}px ${buttonWarp[6]}px ${buttonWarp[7]}px`
+                                        }}>
                                         View demo
                                     </a>
                                 }
