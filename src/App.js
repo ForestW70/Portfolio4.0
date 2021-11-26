@@ -6,7 +6,6 @@ import Contact from './components/contact';
 import NotFound from './components/beep';
 import Resume from './components/resume';
 import Footer from './components/footer';
-
 import './assets/css/App.css';
 
 // create react routes for all pages
@@ -15,6 +14,7 @@ function App() {
     <Router>
       <Header />
       <div className="meat">
+        <div></div>
         <Route exact path={["/about", "/"]}>
           <AboutMe />
         </Route>

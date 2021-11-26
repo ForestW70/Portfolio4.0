@@ -60,5 +60,5 @@ MIT - ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)(https
 
 
 * Links:
-  - [Repo page](https://github.com/ForestW70/portfolio-react)
+  - [Repo page](https://github.com/ForestW70/Portfolio4.0)
   - [Live Page](https://forestwilson.herokuapp.com/)
