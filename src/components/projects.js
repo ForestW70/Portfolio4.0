@@ -81,7 +81,7 @@ export default function Projects() {
     return (
         <div>
             <HeroDisplay />
-            <p><strong>Bootcamp assignments:</strong></p>
+            <p><strong>Project list:</strong></p>
             <LilGuys />
         </div>
     )
