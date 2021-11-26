@@ -110,7 +110,7 @@ export default function Projects() {
             <HeroDisplay />
             <p><strong>Project list:</strong></p>
             <LilGuys />
-            {/* <Reversy /> */}
+            
         </div>
     )
 }
