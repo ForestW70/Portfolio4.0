@@ -2,10 +2,20 @@
 export default function AboutMe() {
     return (
         <section id="about-me">
-            <h3 className="sec-title">My elevator pitch to you...</h3>
+            <h3 className="sec-title">Hi, thanks for stopping by. My name is Forest Wilson.</h3>
             <article>
 
                 <div className="about-p">
+                    <p>
+                        I'm a web developer who recieved a certificate in full-stack development from the George Washington University. I'm thankful for my time there, becuase it opened up my eyes to the possibilities of programming and coding as a whole.
+
+                    </p>
+
+                    <p>
+                        So far, I've developed over 20 websites and applications using Javascript, Node.js, and React, with the help of a long list of other technologies that I've learned along the way.
+                        
+                    </p>
+
                     <p>
                         Forest Wilson is a Full stack web developer foremost, and has developed over 20 applications utilizing the core web languages (HTML, CSS, and JavaScript) in conjunction with other technologies and packages such as:
                         React.js, Next.js, Bootstrap, MySql, MongoDB, Express, Jest, Handlebars, JQuery, Sequelize, Mongoose, IndexedDB, JWTs, Babel, Apollo, Axios, and GraphQL.
