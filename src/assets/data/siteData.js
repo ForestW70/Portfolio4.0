@@ -40,6 +40,7 @@ export const projects = [
         imageAlt: "SE launch page",
         repo: "https://github.com/ForestW70/SpaceExplorer",
         page: "https://forestw70.github.io/SpaceExplorer/",
+        
     },
     {
         title: "ViBlocks",
@@ -50,6 +51,7 @@ export const projects = [
         imageAlt: "sequencer page",
         repo: "https://github.com/ForestW70/viBlocks",
         page: "https://viblocks.herokuapp.com/",
+        important: "true",
     },
     {
         title: "Pandora's Box",
@@ -60,6 +62,7 @@ export const projects = [
         imageAlt: "the soul got out of the boxxxxxx",
         repo: "https://github.com/AustinJoo97/Pandoras-Box",
         page: "/beepboopnotfound",
+        important: "true",
     },
     {
         title: "HTML Fan Page",
@@ -130,6 +133,7 @@ export const projects = [
         imageAlt: "forecast page",
         repo: "https://github.com/ForestW70/Week-6-Weather-Dashboard",
         page: "https://forestw70.github.io/Week-6-Weather-Dashboard/",
+        important: "true",
     },
     {
         title: 'E-commerce Backend',
@@ -205,6 +209,7 @@ export const projects = [
         imageAlt: "shell screen",
         repo: "https://github.com/ForestW70/Week-14-Tech-Blog",
         page: "https://techblog3456.herokuapp.com/home",
+        important: "true",
     },
     {
         title: "Portfolio3.0",
@@ -255,6 +260,17 @@ export const projects = [
         imageAlt: "Book search",
         repo: "https://github.com/ForestW70/Week-21-Book-Search-Engine",
         page: "/beepboopnotfound",
+    },
+    {
+        title: "Sketches Web-audio Player",
+        deploymentDate: "February 2nd, 2022",
+        description: "A lightweight web audio player to listen to the various albums and EP's of Burner Records. Create, remove, and modify songs in a Queue. Auto-play available on desktop. Sort the song list using different criteria. Listen to the burner catalog on the go using the mobile site as well.",
+        techUsed: "JavaScript, CSS, HTML, GitPages/Google deployment",
+        image: "proj-icons/thanks.png",
+        imageAlt: "Sketches-bcc",
+        repo: "https://github.com/ForestW70/sketches-bcc-client",
+        page: "https://burnthis.space",
+        important: "true",
     }
     
 ];

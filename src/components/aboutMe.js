@@ -32,7 +32,7 @@ export default function AboutMe() {
                         </p>
 
                         <p>
-                            My current project: <a href="https://burnthis.space">https://burnthis.space</a>
+                            My newest project: <a href="https://burnthis.space">https://burnthis.space</a>
                         </p>
                     </div>
                 </div>
