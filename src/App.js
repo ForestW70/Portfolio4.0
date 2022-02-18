@@ -15,7 +15,7 @@ function App() {
       <Header />
       <div className="meat">
         <div></div>
-        <Route exact path={["/about", "/"]}>
+        <Route exact path="/">
           <AboutMe />
         </Route>
 

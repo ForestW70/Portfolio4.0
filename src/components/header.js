@@ -15,7 +15,7 @@ export default function Header() {
 
                 {/* navbar links */}
                 <div id="nav">
-                    <Link className="nav-links" id='aboutMeHead' to='/about' >
+                    <Link className="nav-links" id='aboutMeHead' to='/' >
                         <h4>About Me</h4>
                     </Link>
 
