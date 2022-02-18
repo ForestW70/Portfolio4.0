@@ -107,9 +107,9 @@ export default function Projects() {
     // return project page
     return (
         <div>
-            <HeroDisplay />
             <p><strong>Project list:</strong></p>
             <LilGuys />
+            <HeroDisplay />
             
         </div>
     )

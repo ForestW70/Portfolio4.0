@@ -1,11 +1,11 @@
 /* root */
 #root {
-  background-color: mintcream;
+  background-color: white;
 }
 
 .meat {
-  width: 85%;
-  margin: 0 auto;
+  width: 50%;
+  margin-left: 30px;
 }
 
 /* header */
@@ -36,14 +36,15 @@
 
 .forest {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   position: absolute;
   font-family: "Lato";
   font-size: 7rem;
   color: peru;
   text-shadow: -15px 20px 1px maroon;
   width: 100%;
-  bottom: 40px;
+  bottom: 20px;
+  left: 20px;
   transform: skew(20deg, 2deg);
   z-index: 1;
 }
@@ -58,13 +59,16 @@
   text-shadow: 0 0 3px navajowhite;
 }
 
-@media screen and (max-width: 875px) {
-  #header-disp {
+
+
+@media screen and (max-width: 925px) {
+  /* #header-disp {
     height: 200px;
-  }
+  } */
   .forest {
-    font-size: 3rem;
-    width: 50%;
+    font-size: 80px;
+    width: 80%;
+    
     margin-left: 40px;
   }
 }
@@ -73,17 +77,21 @@
 #nav {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
+  background-color: azure;
+  border-bottom: 3px inset peru;
 }
 
 .nav-links {
   padding: 0 20px;
-  background-color: azure;
+  background-color: ghostwhite;
+  /* burner b red */
+  color: #800808;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 20px;
   font-variant: all-petite-caps;
-  padding: 0px 20px;
   border-bottom: 3px inset peru;
+  font-family: monospace;
 }
 
 .nav-links:hover {
@@ -92,16 +100,31 @@
 }
 
 .nav-links > h4 {
-  text-decoration: none;
-  color: rgb(44, 39, 39);
+  text-decoration: underline;
+  margin: 10px;
+}
+
+#nav > a:nth-child(1) {
+  margin-left: 30px;
+  border-left: 3px inset peru;
+}
+
+#nav > a:nth-child(3) {
+  padding-right: 30px;
+  border-right: 3px inset peru;
 }
 
 /* about */
+/* .meat {
+  margin: 0 150px;
+} */
+
 .about-p {
   font-family: "Lora", serif;
-  margin: 30px;
-  text-indent: 25px;
+  margin: 30px 0;
+  /* text-indent: 25px; */
 }
+
 
 .blurb {
   font-style: italic;
@@ -110,6 +133,27 @@
   margin-top: 0;
 }
 
+.aboutDivider {
+  border: 4px dashed #c694c9;
+  border-top: 6px dashed #e7c7e7;
+  border-bottom: 3px dashed #371e38;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutDivider > p {
+  font-family: sans-serif;
+  padding: 10px 0 20px 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .meat {
+    width: 90%;
+  }
+}
+ 
 @media screen and (max-width: 530px) {
   .blurb {
     font-size: 4vmin;
@@ -154,6 +198,7 @@
   margin: 0;
   padding: 0 0 10px 0;
   text-align: center;
+  font-size: 30px;
   border-radius: 50px;
   box-shadow: 0 30px 20px #ad735f;
   color: #ffffff;
@@ -173,7 +218,8 @@
 
 .desc-title {
   margin: 0;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
+  font-size: 20px;
 }
 
 .proj-abst > p {
@@ -187,7 +233,7 @@
 }
 
 .spec-title {
-  font-size: 0.7em;
+  font-size: 10px;
   margin: 25px 0 0 0;
   line-height: 0;
 }
@@ -303,8 +349,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 100px 0;
-  border-top: 1px solid #c1c1c1;
+  margin-bottom: 30px;
+  /* border-top: 1px solid #c1c1c1; */
 }
 
 .contact-container h3 {
@@ -360,23 +406,19 @@
 
 /* footer */
 footer {
-  height: 50px;
+  height: 20px;
   width: 100%;
   display: flex;
   justify-content: center;
-  background-color: aliceblue;
+  background-color: transparent;
   border-top-left-radius: 100px;
   border-top-right-radius: 100px;
 }
 
 footer > span {
-  vertical-align: bottom;
-  font-size: 0.5rem;
-  color: rosybrown;
-  font-family: "Lora";
-  letter-spacing: 1px;
-  padding-top: 5px;
-  width: 85%;
+  font-size: 0.6vmax;
+  color: rgb(121, 93, 93);
+  padding: 5px;
   text-align: center;
 }
 
@@ -395,5 +437,8 @@ footer > span > div {
 /* various */
 .sec-title {
   font-family: "Lato", sans-serif;
-  font-style: italic;
+  font-size: 30px;
+  margin: 40px 0 5px 0;
+  /* padding-bottom: 10px; */
+  /* border-bottom: 2px solid rgb(29, 29, 29); */
 }
