@@ -35,22 +35,6 @@ export default function AboutMe() {
                             My current project: <a href="https://burnthis.space">https://burnthis.space</a>
                         </p>
                     </div>
-
-
-                    {/* <p>
-                        Behind the scenes, Forest likes to find new ways to use his development experience to build music-oriented applications for the web, and for creating music in tandem with FL Studio and Garage band.
-                        Forest is also very familiar with Microsoft and Adobe suite programs such as Excel, Photoshop, and Illustrator. To add to the pot, he also has years of experience in fields such as Marketing/Economics, Service sector/Communication, and IT Helpdesk/Office administration.
-                        The master plan is to one day wrap up all of these skills and create a vibrant online community of creators, where they can have a stylish and accessible web application to display, market, and sell their work.
-                    </p>
-
-                    <p>
-                        In the mean time, Forest is ready build-up his repertoire of front-end, back-end, and UX/UI skills to the max, and he's not afraid of the hard work it will take to achieve this.
-                        He is committed to designing creative and accessible applications, as well as developing a quality product with as few compromises as possible.
-                        So if you are someone who also heavily believes in these ideas, and also in need of a web developer... Well you might just know who to message now.
-                    </p> */}
-
-
-                    <br></br>
                 </div>
             </article>
         </section>

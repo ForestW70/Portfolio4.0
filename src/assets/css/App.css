@@ -59,13 +59,16 @@
   text-shadow: 0 0 3px navajowhite;
 }
 
-@media screen and (max-width: 875px) {
+
+
+@media screen and (max-width: 925px) {
   /* #header-disp {
     height: 200px;
   } */
   .forest {
-    font-size: 3rem;
-    width: 50%;
+    font-size: 80px;
+    width: 80%;
+    
     margin-left: 40px;
   }
 }
@@ -195,6 +198,7 @@
   margin: 0;
   padding: 0 0 10px 0;
   text-align: center;
+  font-size: 30px;
   border-radius: 50px;
   box-shadow: 0 30px 20px #ad735f;
   color: #ffffff;
@@ -214,7 +218,8 @@
 
 .desc-title {
   margin: 0;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
+  font-size: 20px;
 }
 
 .proj-abst > p {
@@ -228,7 +233,7 @@
 }
 
 .spec-title {
-  font-size: 0.7em;
+  font-size: 10px;
   margin: 25px 0 0 0;
   line-height: 0;
 }
@@ -345,7 +350,7 @@
   flex-direction: column;
   align-items: center;
   margin-bottom: 30px;
-  border-top: 1px solid #c1c1c1;
+  /* border-top: 1px solid #c1c1c1; */
 }
 
 .contact-container h3 {
@@ -405,7 +410,7 @@ footer {
   width: 100%;
   display: flex;
   justify-content: center;
-  background-color: aliceblue;
+  background-color: transparent;
   border-top-left-radius: 100px;
   border-top-right-radius: 100px;
 }
@@ -433,7 +438,7 @@ footer > span > div {
 .sec-title {
   font-family: "Lato", sans-serif;
   font-size: 30px;
-  margin: 40px 0;
-  padding-bottom: 10px;
-  border-bottom: 2px solid rgb(29, 29, 29);
+  margin: 40px 0 5px 0;
+  /* padding-bottom: 10px; */
+  /* border-bottom: 2px solid rgb(29, 29, 29); */
 }
