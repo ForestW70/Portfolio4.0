@@ -2,7 +2,7 @@
 export default function Footer() {
     return (
         <footer>
-            <span>© 1995-2021, Forest Wilson, Inc. or its affiliates. All rights reserved. *Sometimes known to not keep it simple.</span>
+            <span>© 1995-2022, Forest Wilson, Inc. or its affiliates. All rights reserved. What a time to be alive :)</span>
         </footer>
     )
 }
